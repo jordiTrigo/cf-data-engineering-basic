@@ -1,0 +1,24 @@
+cities:
+  - city: Girona
+    country: Spain
+  - city: Vilablareix
+    country: Spain
+  - city: Riudellots
+    country: Spain
+  - city: Caldes de Malavella
+    country: Spain
+  - city: Sils
+    country: Spain
+  - city: Barcelona
+    country: Spain
+
+user_agent: 'jtrigo@gmail.com'
+
+openweathermap:
+  api_key: 'HERE API KEY' # API Key de OpenWeatherMap  
+  base_url: 'http://api.openweathermap.org/data/2.5/weather' # base_url
+  url_icono: 'https://openweathermap.org/img/wn/'
+
+meteodata:
+  path: './data/'
+  filename: 'meteo_data_{timestamp}.parquet'
